@@ -1,0 +1,7 @@
+{
+    "scripts": [
+        "create path (sling:OrderedFolder) /content/dam/aem-events",
+        "create path (nt:unstructured) /content/dam/aem-events/jcr:content",
+        "set properties on /content/dam/aem-events/jcr:content\n  set cq:conf{String} to /conf/aem-events\n  set jcr:title{String} to \"Event Management\"\nend"
+    ]
+}

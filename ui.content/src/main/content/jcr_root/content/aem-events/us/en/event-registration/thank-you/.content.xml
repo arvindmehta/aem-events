@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2024-06-25T21:01:23.717+10:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/aem-events/settings/wcm/templates/page-content"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Thank You"
+        sling:resourceType="aem-events/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="aem-events/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="aem-events/components/container"
+                layout="responsiveGrid">
+                <title
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="aem-events/components/title"/>
+                <container
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="aem-events/components/container"
+                    layout="responsiveGrid">
+                    <text
+                        jcr:created="{Date}2024-06-25T21:00:56.177+10:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2024-06-25T21:01:23.709+10:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="aem-events/components/text"
+                        text="&lt;p>Thank you for registering for an event.&lt;/p>&#xd;&#xa;"
+                        textIsRich="true">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="1"
+                                width="10"/>
+                        </cq:responsive>
+                    </text>
+                </container>
+            </container>
+        </root>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,6 @@
+// Configuration created by Apache Sling JCR Installer
+{
+  "scripts":[
+    "create path /home/users/system(rep:AuthorizableFolder)\r\ncreate service user eventsSystemUser with path /home/users/system/ACS\r\nadd eventsSystemUser to group administrators"
+  ]
+}

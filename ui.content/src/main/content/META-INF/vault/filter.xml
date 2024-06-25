@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/aem-events" mode="merge"/>
+    <filter root="/content/aem-events" mode="update"/>
+    <filter root="/content/dam/aem-events" mode="update">
+        <exclude pattern="/content/dam/aem-events(/.*)?"/>
+        <include pattern="/content/dam/aem-events/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/aem-events/asset.jpg" mode="merge"/>
+    <filter root="/content/dam/aem-events/logo.png" mode="update"/>
+    <filter root="/content/dam/aem-events/alaskan-landscape-01.jpg" mode="update"/>
+    <filter root="/content/experience-fragments/aem-events" mode="update"/>
+</workspaceFilter>

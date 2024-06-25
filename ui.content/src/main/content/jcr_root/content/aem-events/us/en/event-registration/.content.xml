@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2024-06-25T21:02:00.822+10:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/aem-events/settings/wcm/templates/page-content"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Event Registration"
+        sling:resourceType="aem-events/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="aem-events/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="aem-events/components/container"
+                layout="responsiveGrid">
+                <container
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="aem-events/components/container"
+                    layout="responsiveGrid">
+                    <image
+                        jcr:created="{Date}2024-06-25T20:42:33.831+10:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2024-06-25T20:43:27.089+10:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="aem-events/components/image"
+                        alt="event-image"
+                        altValueFromDAM="false"
+                        displayPopupTitle="true"
+                        fileReference="/content/dam/aem-events/alaskan-landscape-01.jpg"
+                        imageFromPageImage="false"
+                        isDecorative="false"
+                        linkTarget="_self"
+                        titleValueFromDAM="true">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="1"
+                                width="4"/>
+                        </cq:responsive>
+                    </image>
+                    <text_1444718225
+                        jcr:created="{Date}2024-06-25T20:42:46.222+10:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2024-06-25T20:59:38.774+10:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="aem-events/components/text"
+                        text="&lt;h2>Our events are essential professional development opportunities and the best possible way to network with like-minded tech professionals.&lt;/h2>&#xd;&#xa;&lt;p>Featuring&amp;nbsp;thought leaders across all sectors of the Australian and international tech scenes, our events are presented online and face to face across Australia. Many address key tech topics and issues, while others provide guidance on tech certifications, registrations, assessments, and specialisms that enhance tech careers. Please fill the form below to register for an event.&lt;/p>&#xd;&#xa;"
+                        textIsRich="true">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="1"
+                                width="5"/>
+                        </cq:responsive>
+                    </text_1444718225>
+                    <text
+                        jcr:created="{Date}2024-06-25T20:37:40.870+10:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2024-06-25T20:56:27.094+10:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="aem-events/components/text"
+                        text="&lt;p>&amp;nbsp;&lt;/p>&#xd;&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xd;&#xa;&lt;p>&lt;b>Event Registration Form&lt;/b>&lt;/p>&#xd;&#xa;"
+                        textIsRich="true">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="1"
+                                width="10"/>
+                        </cq:responsive>
+                    </text>
+                    <container
+                        jcr:created="{Date}2024-06-25T12:36:20.913+10:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2024-06-25T21:02:00.807+10:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="aem-events/components/form/container"
+                        action="/content/usergenerated/aem-events/us/en/event-registration/cq-gen1719282980921/"
+                        actionType="register-event"
+                        redirect="[,/content/aem-events/us/en/event-registration/thank-you]">
+                        <text
+                            jcr:created="{Date}2024-06-25T12:37:26.274+10:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2024-06-25T12:37:55.006+10:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="First Name*"
+                            sling:resourceType="aem-events/components/form/text"
+                            name="firstName"
+                            required="true"
+                            requiredMessage="First Name is required"
+                            rows="2"
+                            type="text"/>
+                        <text_copy
+                            jcr:created="{Date}2024-06-25T12:37:26.274+10:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2024-06-25T12:38:11.430+10:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Last Name*"
+                            sling:resourceType="aem-events/components/form/text"
+                            name="lastName"
+                            required="true"
+                            requiredMessage="Last Name is required"
+                            rows="2"
+                            type="text"/>
+                        <text_1901018460
+                            jcr:created="{Date}2024-06-25T12:38:15.036+10:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2024-06-25T20:52:19.323+10:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Email*"
+                            sling:resourceType="aem-events/components/form/text"
+                            constraintMessage="Please enter valid email"
+                            name="email"
+                            required="true"
+                            requiredMessage="Email address is required"
+                            rows="2"
+                            type="email"/>
+                        <hidden
+                                jcr:created="{Date}2024-06-25T21:51:43.949+10:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2024-06-25T21:52:39.007+10:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="aem-events/components/form/hidden"
+                                name="nodeToStoreAPIResponse"
+                                value="/content/usergenerated/wknd/us/en/event-registration/cq-gen"/>
+                        <button
+                            jcr:created="{Date}2024-06-25T12:38:56.166+10:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2024-06-25T12:39:00.002+10:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="aem-events/components/form/button"
+                            type="submit"/>
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="1"
+                                width="8"/>
+                        </cq:responsive>
+                    </container>
+                </container>
+                <title
+                    jcr:lastModified="{Date}2024-06-25T20:59:30.552+10:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Events"
+                    sling:resourceType="aem-events/components/title"
+                    type="h2"/>
+            </container>
+        </root>
+    </jcr:content>
+    <thank-you/>
+</jcr:root>

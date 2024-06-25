@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/aem-events/clientlibs"/>
+    <filter root="/apps/aem-events/components"/>
+    <filter root="/apps/aem-events/i18n"/>
+</workspaceFilter>
