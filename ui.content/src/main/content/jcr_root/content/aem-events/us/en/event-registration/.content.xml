@@ -132,7 +132,7 @@
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="aem-events/components/form/hidden"
                                 name="nodeToStoreAPIResponse"
-                                value="/content/usergenerated/wknd/us/en/event-registration/cq-gen"/>
+                                value="/content/usergenerated/aem-events/us/en/event-registration/cq-gen"/>
                         <button
                             jcr:created="{Date}2024-06-25T12:38:56.166+10:00"
                             jcr:createdBy="admin"
