@@ -7,7 +7,7 @@ This project is an Event Registration web page created using Adobe Experience Ma
 
 The key components and services used in the project are described below.
 
-## Components Used
+## Components Used (All Core Components)
 
 * **Title**:Displays the title of the event.
 * **Text**:Provides descriptive text about the event.
@@ -40,7 +40,7 @@ The form submission process is handled by a custom servlet and service classes a
 * Purpose: Responsible for interacting with the mock web service to post data and return a mock success response.
 * Configuration: Managed under ui.config, specifically handling the HOST API URL
 
-## RestAPIService
+## RestClientUtil
 
 * Class: **RestClientUtil**
 * Purpose: Handles HTTP client connections, connection timeouts, and socket timeout exceptions. It also manages adding basic request headers for the HTTP requests.
